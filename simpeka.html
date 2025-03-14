@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validasi Sertifikat TOEFL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .certificate {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            margin: auto;
+            text-align: center;
+        }
+        .header {
+            background-color: #6fcf97;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            border-radius: 10px 10px 0 0;
+        }
+        .sub-header {
+            font-style: italic;
+            font-size: 14px;
+        }
+        .photo {
+            margin-top: 20px;
+        }
+        .photo img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #ddd;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        td, th {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        .score {
+            font-weight: bold;
+            text-align: center;
+        }
+        .highlight {
+            color: #27ae60;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate">
+        <div class="header">VALIDASI SERTIFIKAT TES TOEFL BERHASIL</div>
+        <div class="sub-header">SIMPEKA UPT BAHASA UHO KENDARI</div>
+        <div class="photo">
+            <img src="profile.jpg" alt="Foto Peserta">
+        </div>
+        <table>
+            <tr><td><strong>Nama Peserta</strong></td><td>MELINDA LEDIYANI</td></tr>
+            <tr><td><strong>Fakultas</strong></td><td>Pascasarjana</td></tr>
+            <tr><td><strong>Jurusan | Prodi</strong></td><td>Magister Ilmu Hukum</td></tr>
+            <tr><td><strong>Nomor Stambuk</strong></td><td>G2R122084</td></tr>
+            <tr><td><strong>Jenis | Tanggal Tes</strong></td><td>TOEFL-Equivalent Test | 21 December 2023</td></tr>
+            <tr><td><strong>Jenis Kelamin</strong></td><td>Perempuan</td></tr>
+            <tr><td><strong>Telepon</strong></td><td class="highlight">085252580653</td></tr>
+            <tr><th colspan="2">Skor TOEFL</th></tr>
+            <tr><td><strong>Listening Comprehension</strong></td><td class="score">52</td></tr>
+            <tr><td><strong>Structure and Written Expression</strong></td><td class="score">40</td></tr>
+            <tr><td><strong>Reading Comprehension</strong></td><td class="score">46</td></tr>
+            <tr><td><strong>TOTAL SCORE</strong></td><td class="score">460</td></tr>
+        </table>
+    </div>
+</body>
+</html>
